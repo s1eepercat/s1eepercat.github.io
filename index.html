@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link
+        href="https://fonts.googleapis.com/css?family=Raleway:200,200i,300,300i,400,400i,500,500i,600,600i&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.ico">
+    <title>Aleksandr Jevlentjev</title>
+</head>
+
+<body id="body" class="grid">
+
+    <canvas id="canvas"></canvas>
+
+    <header class="header">
+        <h1 class="text heading">Web designer & developer</h1>
+    </header>
+
+    <section id="background" class="background">
+        <p>jevlentjev@gmail.com</p>
+    </section>
+
+    <nav class="sidebar">
+        <a href="https://github.com/s1eepercat" class="btn-container m-left-bot" target="_blank">
+            <div class="sidebar__box sidebar__box--1">
+                <div class="btn">
+                    <svg class="btn__icon">
+                        <use xlink:href="img/sprite.svg#icon-github"></use>
+                    </svg>
+                </div>
+            </div>
+        </a>
+        <a href="https://www.linkedin.com/in/aleksandr-jevlentjev-1a0b3b18a/" class="btn-container m-left-bot"
+            target="_blank">
+            <div class="sidebar__box sidebar__box--2">
+                <div class="btn">
+                    <svg class="btn__icon">
+                        <use xlink:href="img/sprite.svg#icon-linkedin"></use>
+                    </svg>
+                </div>
+            </div>
+        </a>
+        <a href="https://www.facebook.com/S1eeperCat" class="btn-container m-left-bot" target="_blank">
+            <div class="sidebar__box sidebar__box--3">
+                <div class="btn">
+                    <svg class="btn__icon">
+                        <use xlink:href="img/sprite.svg#icon-facebook"></use>
+                    </svg>
+                </div>
+            </div>
+        </a>
+
+        <a href="mailto:jevlentjev@gmail.com" class="btn-container m-left-top">
+            <div class="sidebar__box sidebar__box--4">
+                <div class="btn">
+                    <svg class="btn__icon">
+                        <use xlink:href="img/sprite.svg#icon-mail"></use>
+                    </svg>
+                </div>
+            </div>
+        </a>
+
+    </nav>
+
+    <main class="about">
+
+        <input type="checkbox" class="about__checkbox" id="about-toggle">
+
+        <div class="about__container">
+
+            <div class="btn-container">
+                <div class="about__box">
+                    <label for="about-toggle" class="btn">
+                        <svg class="btn__icon">
+                            <use xlink:href="img/sprite.svg#icon-user"></use>
+                        </svg>
+                    </label>
+                </div>
+            </div>
+
+            <p class="about__text about__text--right m-small-top">Hi, nice to meet you!</p>
+            <p class="about__text about__text--left">I am <b class="b">Aleksandr Jevlentjev</b>.</p>
+            <p class="about__text about__text--right">I love coding</p>
+            <p class="about__text about__text--left">and unique designs.</p>
+            <p class="about__text about__text--right">They say<br>"Do what you love!"</p>
+            <p class="about__text about__text--left">So, I only code and drink coffee.</p>
+
+        </div>
+
+    </main>
+
+    <section class="projects">
+
+        <input type="checkbox" class="projects__checkbox" id="projects-toggle">
+
+        <div id="projects-area" class="projects__area">
+
+            <div class="btn-container-long">
+
+                <label for="projects-toggle" class="projects__btn btn">
+                    <div class="projects__text">projects</div>
+                    <svg class="projects__icon btn__icon">
+                        <use xlink:href="img/sprite.svg#icon-chevron-down"></use>
+                    </svg>
+                </label>
+            </div>
+
+            <div id="projects-container" class="projects__container">
+
+                <!-- Project with a github -->
+                <div class="projects__project">
+                    <a href="https://s1eepercat.github.io" target="_blank" class="projects__project-text cursor">
+                        <b>This portfolio</b>
+                        <svg class="projects__selector btn__icon">
+                            <use xlink:href="img/sprite.svg#icon-triangle-left"></use>
+                        </svg>
+                    </a>
+                    <a href="https://github.com/s1eepercat/alexjev" target="_blank"
+                        class="projects__project-text cursor">
+                        Github
+                        <svg class="projects__selector btn__icon">
+                            <use xlink:href="img/sprite.svg#icon-triangle-left"></use>
+                        </svg>
+                    </a>
+                    <p class="projects__project-text">HTML, SASS, Vanilla Javascript, NPM</p>
+                </div>
+
+                <!-- Hidden github project -->
+                <div class="projects__project">
+                    <a href="http://www.houseofpersians.com" target="_blank" class="projects__project-text cursor">
+                        <b>House Of Persians</b>
+                        <svg class="projects__selector btn__icon">
+                            <use xlink:href="img/sprite.svg#icon-triangle-left"></use>
+                        </svg>
+                    </a>
+                    <p href="#" class="projects__project-text">
+                        Private
+                    </p>
+                    <p class="projects__project-text">HTML, CSS, Bootstrap, Vanilla Javascript, PHP</p>
+                </div>
+
+                <!-- Project with a github -->
+                <div class="projects__project">
+                    <a href="http://s1eepercat.smshostingas.lt/cooking-upp/" target="_blank"
+                        class="projects__project-text cursor">
+                        <b>Cooking Upp</b>
+                        <svg class="projects__selector btn__icon">
+                            <use xlink:href="img/sprite.svg#icon-triangle-left"></use>
+                        </svg>
+                    </a>
+                    <a href="https://github.com/s1eepercat/cooking-app" target="_blank"
+                        class="projects__project-text cursor">
+                        Github
+                        <svg class="projects__selector btn__icon">
+                            <use xlink:href="img/sprite.svg#icon-triangle-left"></use>
+                        </svg>
+                    </a>
+                    <p class="projects__project-text">HTML, CSS, React, NPM</p>
+                </div>
+
+            </div>
+
+    </section>
+
+    <footer id="footer" class="footer">
+        <p class="copyright">Made by Aleksandr Jevlentjev &copy; 2019</p>
+    </footer>
+
+    <script type="text/javascript" src="js/script-compressed.js"></script>
+</body>
+
+</html>
